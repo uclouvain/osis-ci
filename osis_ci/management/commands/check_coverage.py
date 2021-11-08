@@ -78,7 +78,7 @@ class Command(BaseCommand, RunCommandMixin):
             [
                 "coverage",
                 "run",
-                "--rcfile=./coveragerc",
+                "--rcfile=./.coveragerc",
                 "--source={}/".format(target_app) if target_app != ALL_APPS else "",
                 "manage.py",
                 "test",
