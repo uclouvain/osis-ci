@@ -24,7 +24,7 @@
 import os
 import subprocess
 
-from osis_common.management.commands import makemessages
+from osis_ci.management.commands import makemessages
 
 
 class MessagesNotTranslatedException(Exception):
