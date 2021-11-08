@@ -41,5 +41,8 @@ setup(
         "pylint==2.4.4",
         "diff-cover==6.4.2",
         "tblib==1.7.0",
-    ]
+    ],
+    entry_points={
+        "console_scripts": ['manage_apps=osis_ci.manage_osis_apps:main']
+    }
 )
