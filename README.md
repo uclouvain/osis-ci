@@ -1,2 +1,3 @@
 # osis-ci
-CI commands for the Osis Project
+
+Contains commands usedy the CI of the project OSIS.
