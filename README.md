@@ -1,3 +1,3 @@
 # osis-ci
 
-Contains commands usedy the CI of the project OSIS.
+Contains commands and scripts used by the CI of the project OSIS.

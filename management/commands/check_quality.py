@@ -24,8 +24,8 @@
 
 from django.core.management import BaseCommand
 
-from osis_ci.management import utils
-from osis_ci.management.utils import RunCommandMixin
+from management import utils
+from management.utils import RunCommandMixin
 
 
 ALL_APPS = 'ALL'
