@@ -1,0 +1,18 @@
+# SDK Generator
+
+Le script generate.sh permet de générer un SDK Python grace à un fichier .yml OpenAPI et de pousser les modifications sur le répertoire GIT
+
+## Usage
+
+```bash
+./generate.sh -p <PROJECT-NAME> -i <YML PATH>
+```
+
+Exemple:
+```bash
+./generate.sh -p osis-education-group-sdk -i https://raw.githubusercontent.com/uclouvain/osis/dev/education_group/schema.yml
+```
+
+Le nom de la branche se base sur le numéro de version fournis dans le schéma (info/version). 
+Si le schéma présente une version '1.08', la branche crée sera 'wip-build-1.08' sur le répertoire GIT uclouvain/<PROJECT-NAME>
+
