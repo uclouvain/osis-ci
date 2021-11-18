@@ -131,7 +131,7 @@ def install_package(package_info: PackageInfo, branch_to_install: str) -> None:
 
 
 def install_modules(default_branch: str, apps: List[List[str]]) -> None:
-    flat_apps = list(itertools.chain(apps))
+    flat_apps = list(itertools.chain.from_iterable(apps))
     cmd = ["python", "manage_submodules.py", default_branch] + flat_apps
 
     print(" ".join(cmd))
