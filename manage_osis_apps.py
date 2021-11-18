@@ -66,13 +66,13 @@ class PackageInfo:
 
 
 packages = [
-    PackageInfo("osis-async", "https://github.com/uclouvain/osis-async.git"),
-    PackageInfo("osis-document", "https://github.com/uclouvain/osis-document.git"),
-    PackageInfo("osis-history", "https://github.com/uclouvain/osis-history.git"),
-    PackageInfo("osis-notification", "https://github.com/uclouvain/osis-notification.git"),
-    PackageInfo("osis-signature", "https://github.com/uclouvain/osis-signature.git"),
-    PackageInfo("osis-mail-template", "https://github.com/uclouvain/osis-mail-template.git"),
-    PackageInfo("osis-export", "https://github.com/uclouvain/osis-export.git"),
+    PackageInfo("osis_async", "https://github.com/uclouvain/osis-async.git"),
+    PackageInfo("osis_document", "https://github.com/uclouvain/osis-document.git"),
+    PackageInfo("osis_history", "https://github.com/uclouvain/osis-history.git"),
+    PackageInfo("osis_notification", "https://github.com/uclouvain/osis-notification.git"),
+    PackageInfo("osis_signature", "https://github.com/uclouvain/osis-signature.git"),
+    PackageInfo("osis_mail_template", "https://github.com/uclouvain/osis-mail-template.git"),
+    PackageInfo("osis_export", "https://github.com/uclouvain/osis-export.git"),
 ]
 
 
