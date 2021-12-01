@@ -1,5 +1,5 @@
 #!/bin/bash
-OPENAPI_GENERATOR_PATH=$(pwd)'/openapi-generator-cli-5.2.1.jar'
+OPENAPI_GENERATOR_PATH=$(pwd)'/openapi-generator-cli.jar'
 YQ_PATH=$(pwd)'/yq_linux_amd64'
 GIT_PUSH_PATH=$(pwd)'/git_push.sh'
 TMP_FOLDER=$(pwd)'/tmp'
